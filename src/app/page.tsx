@@ -31,7 +31,7 @@ export default function Home() {
           disabled={createProject.isPending}
           onClick={() => createProject.mutate({ value: value })}
         >
-          Submit
+          click me
         </Button>
       </div>
     </div>
